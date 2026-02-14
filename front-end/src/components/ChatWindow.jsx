@@ -4,7 +4,6 @@ import { useState } from "react";
 
 export default function ChatWindow() {
   const [message, setMessage] = useState("");
-
   const messages = [
     {
       original: "नमस्ते, आप कैसे हैं?",
